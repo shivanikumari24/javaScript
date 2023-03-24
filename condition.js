@@ -8,7 +8,7 @@ var calls = prompt("Enter number of calls : ");
         else if( calls <=250){
             charge = (calls - 100)* .50 + 100*.25 ;
         }
-        else if( calls <= 500 ){
+        else if( calls <= 500 ) {
             charge = (calls -250)* .75 + 150*.50 + 100*.25 ;
         }
         else{
