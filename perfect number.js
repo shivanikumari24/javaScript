@@ -5,7 +5,7 @@ const prompt= require('prompt-sync')();
 A perfect number is a positive integer that is equal to the sum of its factors except for the number itself.
 In other words, perfect numbers are the positive integers that are the sum of its divisors.
 The smallest perfect number is 6, which is the sum of its factors: 1, 2, and 3.
-It is to be noted that this sum does not include the number itself which is al 
+It is to be noted that this sum does not include the number itself which is al  
 */
 
 var n=prompt("enter a number : ");
