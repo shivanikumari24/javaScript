@@ -1,5 +1,8 @@
 const prompt= require('prompt-sync')();
 
+
+//find your lovescore 
+
 prompt("enter your name : ");
 prompt("enter their name : ");
 
