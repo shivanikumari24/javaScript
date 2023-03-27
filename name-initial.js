@@ -3,7 +3,7 @@ const prompt= require('prompt-sync')();
 
 //print the initials of a name with the surname
 
-//1st method  (applicable on any number of word in a name)
+//1st method   (applicable on any number of word in a name)
 
 let a =prompt("enter name")
 var last = a.lastIndexOf(" ");
