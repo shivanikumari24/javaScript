@@ -7,6 +7,7 @@ const prompt= require('prompt-sync')();
 
 let a =prompt("enter name")
 var last = a.lastIndexOf(" ");
+
 console.log(a.charAt(0)+".");   //it  print first character with dot(.)
 for(i=0;i<last;i++){  
     ch=a.charAt(i);
