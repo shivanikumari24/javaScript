@@ -29,7 +29,7 @@ abbrev_name = function (str1) {
 console.log(abbrev_name(prompt("enter name: ")));
 
 
-//3rd method (it is applicable on only name that contain three word)
+//3rd method (it is applicable on only name that contain three word that is given in input)
 fname=prompt("enter first name: ")
 mname=prompt("enter middle name: ")
 lname=prompt("enter last name: ")
