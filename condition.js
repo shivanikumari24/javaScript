@@ -1,6 +1,6 @@
 const prompt= require('prompt-sync')();
 
-var calls = prompt("Enter number of calls : ");
+var calls = prompt("Enter total number of calls : ");
 
         if(calls <= 100){
             charge = 100 * .25 ;
@@ -14,4 +14,4 @@ var calls = prompt("Enter number of calls : ");
         else{
             charge =(calls-500)*1 + 250*.75 + 150*.50 + 100*.25;
         }
-    console.log("total charge = ", charge);
+    console.log("total charge  = ", charge);
