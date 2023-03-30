@@ -8,6 +8,18 @@
     } 
     return i;
   }
-    
 x=lcm(15,3);
 document.write("Lcm is : ", x) 
+
+//HCF of two number
+  function hcf(a,b){
+    min=(a<b)? a:b
+    for(i=min;i>=1;i--){
+        if(a%i==0 && b%i==0){
+            return i;
+        }
+        
+    }
+}
+ x=hcf(24,36);
+ document.write("HCF is : "+ x);
