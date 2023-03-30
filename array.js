@@ -17,3 +17,16 @@
         //show which element is deleted
         x=ar.pop()
         console.log(x) 
+
+       
+// loop
+
+   let ar=[2,4,6,3,23,65,76,86,81,34]
+
+   for(i in ar){            //for in loop print index number of given array
+       console.log(i ," ")
+    }
+
+    for(i of ar){         //for of loop print the value of array
+        console.log(i ," ")
+    }
