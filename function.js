@@ -9,7 +9,7 @@
     return i;
   }
 x=lcm(15,3);
-document.write("Lcm is : ", x) 
+console.log("Lcm is : ", x) 
 
 //HCF of two number
   function hcf(a,b){
@@ -22,4 +22,4 @@ document.write("Lcm is : ", x)
     }
 }
  x=hcf(24,36);
- document.write("HCF is : "+ x);
+ console.log("HCF is : "+ x);
