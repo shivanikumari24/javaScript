@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+   <h1 onmouseover="act()" onmouseout="act1()"  id="heading">Brillica services</h1>
+    <button onclick="act2()" onmouseover="act3()" onmouseout="act4()" id="btn">Click me</button>
+    <h2 style="color: red;" id="h"></h2> 
+  
+  <script>
+            function act(){
+            document.getElementById("heading").style="color: red"
+        }
+        function act1(){
+            document.getElementById("heading").style="color: green"
+        }
+        function act2(){
+            document.getElementById("heading").style="color: blue"
+        }
+        function act3(){
+            document.getElementById("btn").style="color: white ;background-color: red"
+        }
+        function act4(){
+            document.getElementById("btn").style="color: green ; background-color: yellow" 
+        }
+    
+  </script>
