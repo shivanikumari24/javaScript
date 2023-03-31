@@ -30,3 +30,5 @@
     for(i of ar){         //for of loop print the value of array
         console.log(i ," ")
     }
+
+
