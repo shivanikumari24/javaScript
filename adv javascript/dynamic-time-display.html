@@ -13,8 +13,11 @@ function startTime() {
   let hr = today.getHours();
   let min = today.getMinutes();
   let sec = today.getSeconds();
+  
+  hr = checkTime(hr);
   min = checkTime(min);
   sec = checkTime(sec);
+  
   document.getElementById('txt').innerHTML =  hr + ":" + min + ":" + sec;
   setTimeout(startTime, 1000);
 }
