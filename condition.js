@@ -15,4 +15,5 @@ var calls = prompt("Enter number of calls : ");
         else{
             charge =(calls-500)*1 + 250*.75 + 150*.50 + 100*.25;
         }
+
     console.log("total charge = ", charge);
