@@ -14,6 +14,7 @@ The CRUD paradigm was designed as a method of functions for improving persistent
 In modern software engineering, CRUD serves as an approach for designing web applications since it provides a memorable scheme for reminding developers of how to create comprehensive user-friendly tools. In such apps, users interact with a database by creating a new record, accessing data in the UI by reading it, editing or updating data, and deleting it.
 
 Each CRUD operation can be mapped to a corresponding HTTP protocol method:  
+
 * Create -> Post
 * Read -> Get
 * Update -> Put
