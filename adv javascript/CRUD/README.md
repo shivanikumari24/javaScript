@@ -1,7 +1,6 @@
 # CRUD
 
 CRUD stands for -
-
 * C : Create
 * R : Read
 * U : Update
