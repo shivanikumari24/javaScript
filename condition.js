@@ -1,7 +1,5 @@
 const prompt= require('prompt-sync')();
-
 var calls = prompt("Enter number of calls : ");
-
         if(calls <= 100){
             charge = 100 * .25 ;
         }
